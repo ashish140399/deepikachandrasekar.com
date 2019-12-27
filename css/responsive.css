@@ -1,0 +1,151 @@
+@media only screen and (max-width: 1200px) {
+	.home_col23_main-bx{
+		margin: 1em
+	}
+	.home_col1row3_head{
+		font-size: 20px;
+		margin: 7px 3px;
+	}
+	.home_col1row3_cntnt div{
+		font-size: 18px;
+		margin: 5px 3px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.home_col1row1 img {
+	    width: 100%;
+	}
+	.home_col1row3{
+		margin: 1em 1em;
+	}
+	.home_col23_main-bx{
+		margin: 1em 0em ;
+	}
+	.pomodoro_div_bxes-UTB .utb_main_box{
+		margin: 0em 5%;
+	}
+	.pomodoro_div_bxes-UTB .utb_main_box_heading{
+		font-size: 20px
+	}
+}
+@media only screen and (max-width: 768px) {
+
+	.home_col1row1 img {
+	    width: 100%;
+	}
+	.home_col1row1{
+		margin: 1em 2em;
+	}
+	.home_col1row3{
+		margin: 1em 0em;
+	}
+	.home_col23_device_mainbx{
+		margin-top: 0;
+	}
+	.pomodoro_div_bxes-UTB .utb_main_box{
+		margin: 0em 0%;
+	}
+	.pomodoro_div_bxes-UTB .utb_main_box_heading{
+		font-size: 18px
+	}
+	.pomodoro_div_bxes-UTB .utb_main_box_heading{
+		margin-bottom: 0.5em;
+	}
+	.pomodoro_rw1Img{
+		margin: 15px 0px;
+	}
+	.promo_plan_bx .col-md-3{
+		margin: 10px 0px
+	}
+	.promodoro_technique{
+		    margin: 3% 0em 3% 0em;
+	}
+	.pomodoro_div_bxes-UTB .col-md-4{
+		margin: 10px 0px;
+	}
+	.prototype_bx_arrow{
+		display: none;
+	}
+	.pomodoro_div_bxes_prototype .col-md-4{
+		margin: 10px 0px;
+	}
+	.nav-item.dropdown{
+		padding: 0em;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	.home_col1row1 img {
+	    width: 55%;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.home_bottom_contact {
+	    display: block;
+	}
+	.home_main-row2_resume{
+		margin: 15px 12% 30px 12%;
+	}
+	.home_col1row1{
+		margin: 1em 0em ;
+	}
+	.prom_plan-bx_heading{
+		font-size: 18px;
+	}
+	.nav-logo {
+	    height: 40px;
+	    width: 40px;
+	    margin: 0px 10px 0px 5px;
+	}
+	.nav_logo_content .name{
+		font-weight: 700;
+		font-size: 18px
+	}
+	.nav_logo_content .info{
+		font-weight: 700;
+		font-size: 12px
+	}
+	.home_main-row2_cntct{
+		font-size: 22px
+	}
+	.fa-arrow-alt-circle-up{
+	    font-size: 2.3em;
+	    bottom: 10px;
+	    right: 10px;
+	}
+	.dropdown-menu{
+		border: 1px solid rgba(0, 0, 0, 0.02) !important;
+		background-color: rgba(0, 0, 0, 0.02) !important; 
+		padding: .1rem 0;
+	}
+	.dropdown-item{
+		padding: 5px !important;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.nav_logo_content .name{
+		font-weight: 700;
+		font-size: 16px
+	}
+	.nav_logo_content .info{
+		font-weight: 700;
+		font-size: 12px
+	}
+	.navbar-brand{
+		margin-right: 10px !important;
+	}
+	.navbar-toggler {
+    padding: 0px !important;
+    }
+    .pm-planner-txt{
+    	margin-left: 0
+    }
+    .pm-planner img {
+	    width: 2em;
+	}
+}
