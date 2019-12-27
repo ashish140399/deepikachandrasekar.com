@@ -60,10 +60,11 @@
 		<div class="pm-planner-txt">Pomodoro Planner - UX/UI</div>
 	</div>
 	<div class="row">
-		<div class="col-md-3">
-			<video autoplay playsinline loop muted style="width:100%" id="carousel_video1"><source src="images/video1.mp4" type="video/mp4"></video>
+		<div class="col-md-4">
+			<!--video autoplay playsinline loop muted style="width:100%" id="carousel_video1"><source src="images/video1.mp4" type="video/mp4"></video-->
+				<img src="images/Pomadaro_poster.png" class="main_banner">
 		</div>
-		<div class="col-md-9">
+		<div class="col-md-8">
 			<div class="info_lbox">
 				<div>
 					<div class="info_lbox_heading">
@@ -123,15 +124,15 @@
 		</div>
 	</div>
 
-	<div class="promodoro_technique">
+	<!--div class="promodoro_technique">
 		<div style="text-align: center;">
 			Pomodoro Technique : The technique uses a timer to break down work into intervals, <br>
 			traditionally 25 minutes in length, separated by short breaks.
 		</div>
-	</div>
+	</div-->
 
 	<div class="pomodoro_div_bxes">
-		<div class="promo_pg_headings">So the plan is</div>
+		<div class="promo_pg_headings">The Process</div>
 		<div class="promo_plan_bx">
 			<div class="row">
 				<div class="col-md-3">
@@ -149,7 +150,8 @@
 					<div style="text-align: center;">
 						User Personas <br>
 						Scenarios <br>
-						Information Architecture
+						Information Architecture <br>
+						Card Sorting
 					</div>
 				</div>
 				<div class="col-md-3">
@@ -174,21 +176,34 @@
 	</div>
 
 	<div class="pomodoro_div_bxes">
-		<div class="promo_pg_headings">Problem Statement</div>
-		<div>
-			In a very competitive environment, it is very hard for students to keep up with their academics. Also 
-			with increasing distractions through social media applications, students lose their focus in
-			academics which results in failing to achieve their goals. 
+		<div class="promo_pg_headings" style="text-align: center;">Problem Statement</div>
+		<div class="pomodoro_div_bxes_cntnt">
+			In a very competitive environment, it is very hard for students to keep up with their academics. 
+			According to a recent survey conducted by Harvard, it has been estimated that 92% of the students
+			are distracted by social media which results in students losing their focus in academics which results in 
+			failing to achieve their goals. 
+
 
 		</div>
 	</div>
 
 	<div class="pomodoro_div_bxes">
-		<div class="promo_pg_headings">Understand the problem</div>
-		<div>
+		<div class="promo_pg_headings" style="text-align: center;">Understand the problem</div>
+		<div class="pomodoro_div_bxes_cntnt">
 			From the problem statement, it is understood that I need to research about successful study
-			techniques and also interview students about their distractions to solve the problem and solve the
-			problem through the mobile app.
+			techniques and also interview students about their distractions to solve the problem and come up with 
+			a solution in the form of a mobile application. 
+
+		</div>
+	</div>
+
+	<div class="pomodoro_div_bxes">
+		<div class="promo_pg_headings" style="text-align: center;">Ideate</div>
+		<div class="pomodoro_div_bxes_cntnt">
+			The first step to solve any problem is to find who the target audience are to find that I created  
+			what is already in the market (<a href="" style="color: #F5927A">Competitor research</a>) 
+			and ask users about their problems and techniques 
+			(<a href="" style="color: #F5927A">Interviews and Surveys</a>)
 
 		</div>
 	</div>
@@ -214,7 +229,7 @@
 			<div class="col-md-4">
 				<div class="utb_main_box">
 					<div class="utb_main_box_heading">Survey</div>
-					<div>
+					<div >
 						From the answer to the surcey questions, it has been concluded that social media apps and using the mobile phone in general while studying has served as a main distraction to students.
 					</div>
 				</div>
@@ -223,80 +238,302 @@
 	</div>
 
 	<div class="pomodoro_div_bxes">
-		<div class="promo_pg_headings">Define</div>
-		<div>
-		After collecting the data from 1-1 user interviews and surveys from user across the country, I analysed
-		the problem. Then using the analysis I made personas ranging different ages with different needs
-		and pain points. <br> 
-
-		Based on the solution for the app, I drew out the user flow and information architecture. You can read
-		more about this process on my medium article linked <a href="https://medium.com/@deepikachandrasekar/study-planner-case-study-part-1-988c58edacd2" style="color: #F5927A;font-weight: 700">here</a> . <br>
-
-		
+		<div class="promo_pg_headings" style="text-align: center;">Takeway</div>
+		<div class="pomodoro_div_bxes_cntnt">
+			From the above user research techniques, I analysed the user behaviour and their needs.
+			As a result of understanding who the user is and what they want in terms of the problem statement
+			I made <span style="color: #F5927A">user personas</span>. 
 		</div>
 	</div>
 
-	<div class="pomodoro_div_bxes pomodoro_div_bxes_prototype">
-		<div class="promo_pg_headings">Prototype</div>
+	<div class="pomodoro_div_bxes">
+		<div class="promo_pg_headings" style="text-align: center;">Define</div>
+		<div class="pomodoro_div_bxes_cntnt">
+			From the above analysis its clear that the key problem to solve is to stop students from getting 
+			distracted by other social media apps and also help them <span style="color: #F5927A">build an habit of studying 
+			everyday</span>. Also one of the major findings is that users spend most of the time planning what to study 
+			and also analysing how much time they spent actually studying a certain subject. To solve 
+			the issue of reducing the time planning, I decided to <span style="color: #F5927A">connect the app with Google Classroom</span> which
+			will allow the app to access coursework from Google Classroom and display it directly
+			in the user goals page.
+			<br>
+			<div>
+				<div class="define_step1">
+				STEP1: QUEUE > ROUTINE > REWARD
+				</div>
+				<div>
+					To form a habit, it is important to analyse each of these behaviour. From <span style="color: #F5927A">Card Sorting</span> with 
+					users during the user research, I devised the <span style="color: #F5927A">mental model</span> which gave me a deeper insight
+					On where I can concentrate in order to build a routine and also how to reward the user.
+				</div>
+				<div class="define_step1img">
+					<img src="images/define_step1_1.png" class="define_step1_1">
+					<div class="images_captions">Mental Model</div>
+					<br>
+					<div>The app’s user flow looks like</div>
+					<img src="images/define_step1_2.png" style="width: 100%" class="define_step1_2">
+				</div>
+			</div>
+
+			<div class="define_mainstep2">
+				<div class="define_step2">
+					STEP 2 :  DESIGN SOLUTION - GAMIFICATION OF UI <br>
+        			(ITERATIVE PROTOTYPING AND TESTING)  
+				</div>
+				<div>
+					From the mental model I identified that the queue is to make a student study regularly, to 
+					make it a routine, I took to the idea of  <a href="" style="color: #F5927A">Gamification</a>. As used by many applications, gamification
+					is a powerful technique to <a href="" style="color: #F5927A">help users build routines</a> in using a mobile app. As a part of gamification
+					rewards also follow in order to get the user hooked. 
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<div class="pomodoro_div_bxes">
+		<div class="promo_pg_headings" style="text-align: center;color: #F5927A">Goals page</div>
+		<div class="pomodoro_div_bxes_cntnt">
+			<div>
+				The key role of the Goals page in the app is to showcase all the subjects the user has to study for a
+				particular day. Also show if a user has completed spending time studying a subject mentioned
+				along with the time taken to study. This page is the <a href="" style="color: #F5927A">queue and routine builder in the app.</a>
+			</div>
+			<div class="goals_page_img">
+				<div class="row">
+					<div class="col-sm-3">
+						<img src="images/define_step2_1.png" >
+					</div>
+					<div class="col-sm-3">
+						<img src="images/define_step2_2.png" >
+					</div>
+					<div class="col-sm-3">
+						<img src="images/define_step2_3.png" >
+					</div>
+					<div class="col-sm-3">
+						<img src="images/define_step2_4.png" >
+					</div>
+				</div>
+				<div  class="goals_page_imgsub">
+					<div class="row">
+						<div class="col-sm-4">
+							<img src="images/define_step2_5.png" >
+						</div>
+						<div class="col-sm-4">
+							<img src="images/define_step2_6.png" >
+						</div>
+						<div class="col-sm-4">
+							<img src="images/define_step2_7.png" >
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="images_captions">
+				The different stages of  sketching the Goals page for Pomodoro Planner
+			</div>
+			<br>
+			<div>
+				After sketching the ideas for a goals page roughly on paper, I used Freehand prototyping
+				tool provided by inVision to test the ideas with users by performing user-testing 
+				(Behavioural observations and quantitative methods like surveys were used)  
+			</div>
+			<div class="goals_page2img">
+				<img src="images/define_step2_8.png" >
+			</div>
+			<div class="images_captions">The different versions of freehand prototypes of Pomodoro Planner*</div><br>
+			<div>
+				Using the feedback and observations from the usability testing with the above artefacts, the low-fidelity 
+				prototype was designed and tested accordingly which finally paved way to design the high-fidelity
+				prototype.
+			</div>
+			<div class="goals_page3img">
+				<div class="row">
+					<div class="col-sm-5">
+						<img src="images/define_step2_9.png" >
+						<div class="images_captions">Low fidelity wireframe of the Goals page</div>
+					</div>
+					<div class="col-sm-2"></div>
+					<div class="col-sm-5">
+						<img src="images/define_step2_10.png" >
+						<div class="images_captions">High fidelity wireframe of the Goals page</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				One of the main feedbacks and observations while testing the user interface of the high-fidelity prototype
+				Was the “Start timer” button, the main “Call to Action” button in the goals page did not
+				Gain the attention as expected. To solve the problem, I sort out to the colour theory,
+				In the comparison image below you can see that I have used a complementary colour for the start timer button.
+				This has solved the problem which is proven through another round of usability testing.
+			</div>
+			<div class="goals_page4img">
+				<div class="row">
+					<div class="col-sm-5">
+						<img src="images/define_step2_11.png" >
+						<div class="images_captions">Clear CTA implemented by the use of a <br> Complementary colour</div>
+					</div>
+					<div class="col-sm-2"></div>
+					<div class="col-sm-5">
+						<img src="images/define_step2_12.png" >
+						<div class="images_captions">User activity after changing the colour of the CTA button as seen during Usability testing done using Maze</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="pomodoro_div_bxes" style="text-align: center;">
+		<div class="promo_pg_headings" style="text-align: center;color: #F5927A">The Timer</div>
+		<div class="pomodoro_div_bxes_cntnt">
+			One of the key selling point of the app is the “Timer page”. This unique timer page is based on the 
+			Time management concept called as the <span style="color: #F5927A">Pomodoro Technique</span>
+
+		</div>
+		<div class="promodoro_technique">
+			<div style="text-align: center;">
+				Pomodoro Technique : The technique uses a timer to break down work into intervals, <br>
+				traditionally 25 minutes in length, separated by short breaks.
+			</div>
+		</div>
 		<div>
+			The timer can be started for only 25mins, 50mins, 75 mins and 100 mins. This technique is particularly
+			used in this scenario because it has been proven that taking short breaks in between studying/working
+			Actually improves productivity and by using this technique I wanted to prove that 
+			Spending small chunks of time everyday on a particular subject regularly will improve the 
+			academic performance by inculcating an habit of studying everyday. 
+		</div><br>
+		<div>
+			However to achieve this, I made use of gamification by giving the user to use the timer to hatch a chick
+			While the timer is running. If the user fails to keep the timer running by getting distracted 
+			Through other apps or notifications, the user fails to collect a chick and ultimately falls down in his 
+			ranking board.
+		</div>
+		<br>
+		<h5 style="font-weight: bold;">The reward - The chick and the race to collect the maximum number of chicks</h5>
+		<div class="thetimerrow1">
 			<div class="row">
-				<div class="col-md-4">
-				 	<div class="prototype_bx_heading">Paper prototype</div>
-				 	<div class="prototype_bx_content">
-				 		<img src="images/prototype_paper1.png" style="width: 100%">
-				 	</div>
+				<div class="col-sm-4 my-2">
+					<img src="images/define_step2_13.png">
 				</div>
-				<div class="col-md-4">
-				 	<div>
-					 	<div class="prototype_bx_arrowl prototype_bx_arrow">
-			 				<i class="fa fa-long-arrow-right"></i>
-			 			</div>
-					 	<div>
-					 		<div class="prototype_bx_heading">Wireframes</div>
-				 			<div class="prototype_bx_content">
-				 				<img src="images/prototype_wireframe1.png" style="width: 100%">
-				 			</div>					 			
-					 	</div>
-					 	<div class="prototype_bx_arrowr prototype_bx_arrow" >
-			 				<i class="fa fa-long-arrow-right"></i>
-			 			</div>
-					 </div>
-				</div>
-				<div class="col-md-4">
-				 	<div class="prototype_bx_heading">Hi-fi prototype</div>
-				 	<div class="prototype_bx_content">
-				 		<img src="images/prototype_hifi1.png" style="width: 100%">
-				 	</div>
+				<div class="col-sm-8 my-2">
+					<img src="images/define_step2_14.png">
 				</div>
 			</div>
-			<div style="margin: 10px 15px">
-				I started rapidly prototyping on paper and I uploaded them on inVision paper prototype to test it 
-				with real users and get their feedback. During this process, I had to make several changes to the 
-				solution and I realised that what we think while designing is different from what users want. So I 
-				iteratively acquired user feedbacks to improve the app. <br>
+		</div>
+		
+		<div class="images_captions">
+			The different stages of  sketching the Timer page for Pomodoro Planner
+		</div>
+		<div class="thetimerrow2">
+			<div>
+				From the above sketches, I combined the two ideas of a timer and tried to incorporate
+				gamification in the timer.
+			</div>
+			<div class="row thetimerrow2sub1">
+				<div class="col-sm-4">
+					<img src="images/define_step2_15.png">
+				</div>
+				<div class="col-sm-4">
+					<img src="images/define_step2_16.png">
+				</div>
+				<div class="col-sm-4">
+					<img src="images/define_step2_17.png">
+				</div>
+			</div>
+			<div class="thetimerrow2sub2" >
+				<div class="row">
+					<div class="col-sm-6">
+						<img src="images/define_step2_18.png">
+					</div>
+					<div class="col-sm-6">
+						<img src="images/define_step2_19.png">
+					</div>
+				</div>
+			</div>
+			<div class="images_captions mt-3">
+				The different stages of Timer UI
+			</div>
+		</div>
+		<div>
+			One of the decisions that I took while developing the app, is to change the Timer from being displayed
+			As a page to a modal view as it can be started only from the goals page. This decision stopped 
+			The user from getting frustrated about not having an option to start the timer in the timer page.
+		</div>
+		<div class="thetimerrow3">
+			<img src="images/define_step2_20.png">
+		</div>
+		<div>Feedback from users on how they felt about using the timer</div>
+	</div>
 
-				With the use cases and scenarios, I built the wireframes without designing the assets. I made use of 
-				iPhone mockup tool to quickly design the wireframes. This allowed me to make sure that I had a user flow
-				for the scenarios that I created for the app. From this I took to Adobe XD to design the high fidelity 
-				prototype. I learnt to make assets. One of the biggest challenges here was to constantly learn about 
-				screen dimensions and sizes to design the assets and the app interactions in general. 
+	<div class="pomodoro_div_bxes">
+		<div class="promo_pg_headings" style="text-align: center;color: #F5927A">Rewards page</div>
+		<div class="pomodoro_div_bxes_cntnt">
+		The natural response for collecting anything is to compare it with other users. The rewards page is the 
+		reward phase of a habit loop. The users are compared based on the number of chicks they have 
+		collected among other users of the app. 
+		</div>
+		<div class="rewardrow1">
+			<div class="row">
+				<div class="col-sm-5">
+					<img src="images/define_step2_21.png" >
+					<div class="images_captions">Low fidelity wireframe of the Rewards page</div>
+				</div>
+				<div class="col-sm-2"></div>
+				<div class="col-sm-5">
+					<img src="images/define_step2_22.png" >
+					<div class="images_captions">High fidelity wireframe of the Rewards page</div>
+				</div>
 			</div>
 		</div>
 	</div>
+
 	<div class="pomodoro_div_bxes">
-		<div class="promo_pg_headings">Validate</div>
-		<div class="row">
-			<div class="col-md-8" >
-				<img src="images/work_validate1.png" style="width: 100%;margin: 5px 0px">
+		<div class="promo_pg_headings" style="text-align: center;color: #F5927A">Feedback</div>
+		<div class="pomodoro_div_bxes_cntnt">
+			<div class="d-flex justify-content-start">
+				<div class="mr-3 ">
+					<img src="images/feedback1.png" style="width: 3.5em;display: block;margin: auto;">
+				</div>
+				<div style="max-width: 40em;border:1px dotted #F5927A;padding: 10px 20px;color: #F5927A">
+					“I like the animations in the timer, it motivates me to study without 
+					switching to other apps because I do not want to kill the chick.” 
+				</div>
 			</div>
-			<div class="col-md-4" >
-				<img src="images/work_validate2.png" style="width: 100%;border-top: 1px solid #000;margin: 5px 0px">
+			<div class="d-flex justify-content-end my-3">
+				<div style="max-width: 30em;border:1px dotted #F5927A;padding: 10px 20px;color: #F5927A">
+					“Its so easy that it connects to Google <br>
+					 Classroom directly, <br>
+					Very smart idea.”
+				</div>
+				<div class="ml-3 ">
+					<img src="images/feedback2.png" style="width: 3.5em;display: block;margin: auto;">
+				</div>
+			</div>
+			<div class="d-flex justify-content-start">
+				<div class="mr-3 ">
+					<img src="images/feedback3.png" style="width: 3.5em;display: block;margin: auto;">
+				</div>
+
+				<div style="max-width: 40em;border:1px dotted #F5927A;padding: 10px 20px;color: #F5927A">
+					“I like to know how much time I spend  <br>
+					Studying each subject and Pomodoro <br>
+					Planner has it all.”
+				</div>
 			</div>
 		</div>
+		
 	</div>
+
 	<div class="pomodoro_div_bxes">
-		<div class="promo_pg_headings promo_pg_headings_feedback">Insert feedback from users and what i learned from them</div>
+		<div class="promo_pg_headings" style="text-align: center;color: #F5927A">Takeway</div>
+		<div class="pomodoro_div_bxes_cntnt">
+			The design of Pomodoro Planner was iterative and I followed the Double Diamond method, this 
+			helped me to shape the design solution to suit the needs of the user, also the reviews from the user
+			suggested that Pomodoro Planner is sure to induce a healthy habit of making people study everyday.
+		</div>
 	</div>
+
+
+	
 </div>
 <a href="" id="backToTop" style="border-radius: 50%;display: none;"><i class="fas fa-arrow-alt-circle-up"></i></a>
 </body>

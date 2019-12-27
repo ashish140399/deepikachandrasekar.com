@@ -72,6 +72,21 @@
 	.nav-item.dropdown{
 		padding: 0em;
 	}
+	.goals_page4img{
+		width: 80%;
+	}
+	.goals_page3img{
+		width: 80%;
+	}
+	.goals_page2img img{
+		width: 80%;
+	}
+	.goals_page_img img{
+		width: 80%;
+	}
+	.main_banner{
+		margin: 20px 0px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -124,6 +139,45 @@
 	}
 	.dropdown-item{
 		padding: 5px !important;
+	}
+	.define_step2{
+		font-size: 15px;
+	}
+	.define_step1{
+		font-size: 15px;
+	}
+	.goals_page_img img{
+		width: 60%;
+	}
+	.goals_page_imgsub{
+		width: 100%;
+		margin: auto;
+	}
+	.goals_page3img img{
+		width: 60%;
+		margin: 15px auto;
+	}
+	.goals_page4img img{
+		width: 60%;
+		margin: 15px auto;
+	}
+	.thetimerrow2sub1 img{
+		width: 50%;
+		margin: 0.6em auto;
+	}
+	.thetimerrow2sub2 img{
+		width: 50%;
+		margin: 0.6em auto;
+	}
+	.thetimerrow2sub2{
+		width: 100%;
+		margin-top: 0em;
+	}
+	.thetimerrow3{
+		width: 50%;
+	}
+	.rewardrow1 img{
+		margin: 15px auto
 	}
 }
 
